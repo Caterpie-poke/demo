@@ -35,15 +35,12 @@ h1 {
 .video p.title {
   font-weight: bolder;
 }
-.video p.title::before {
-  content: "タイトル: ";
-}
 .video p.date {
   font-weight: lighter;
   font-size: x-small;
 }
 .video p.date::before {
-  content: "作成日: ";
+  content: "作成日 : ";
 }
 
 .video video {
